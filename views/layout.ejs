@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seattle Event Calender</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/af.js"></script>
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <nav class="taskbar">
+    <span><h1>Seattle Venues</h1></span>
+    <ul>
+      <li><a id="signup" href="/auth/signup">Signup</a></li>
+      <li><a href="/auth/login">Login</a></li>
+      <li><a href="/auth/logout">Logout</a></li>
+      <li><a href="/profile">Favorites</a></li>
+    </ul>
+    </nav>
+
+    <div class="container">
+
+      <%- body %>
+      <%- JSON.stringify(currentUser) %>
+      <% include partials/alerts %>
+    </div>
+
+
+    <script src="/js/index.js"
+  </body>
+</html>
