@@ -47,9 +47,19 @@ var passport = require('./config/ppConfig');
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.locals.venueData = require('./data.json');
+
 app.get('/', function(req, res) {
   res.render('index');
 });
+
+// app.get('/tweets', function(req,res){
+//   var tweets = 'https://api.twitter.com/1.1/search/tweets.json'
+//
+//   request(tweets, function(error, response, body){
+//     var tweetsParsed = JSON.parse(body)
+//   })
+// })
 
 app.get('/profile', isLoggedIn, function(req, res) {
   res.render('profile');
