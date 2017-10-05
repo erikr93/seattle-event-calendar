@@ -61,6 +61,7 @@ app.get('/', function(req, res) {
 //   })
 // })
 
+//favorites
 app.get('/profile', isLoggedIn, function(req, res) {
   res.render('profile');
 });
