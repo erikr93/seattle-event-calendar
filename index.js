@@ -53,13 +53,13 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
-// app.get('/tweets', function(req,res){
-//   var tweets = 'https://api.twitter.com/1.1/search/tweets.json'
-//
-//   request(tweets, function(error, response, body){
-//     var tweetsParsed = JSON.parse(body)
-//   })
-// })
+app.get('/events', function(req,res){
+  var events = 'http://api.songkick.com/api/3.0/venues/venueData.id/calendar.json?apikey=DA_KEY'
+
+  request(events, function(error, response, body){
+    
+  })
+})
 
 //favorites
 app.get('/profile', isLoggedIn, function(req, res) {

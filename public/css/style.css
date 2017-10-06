@@ -4,6 +4,7 @@ body{
 
 h1 {
   text-align: center;
+  font-family: 'Bitter', serif;
 }
 
 nav {
@@ -14,6 +15,7 @@ nav {
   width: 100%;
   padding-left: 5%;
   margin: 0;
+  font-family: 'Bitter', serif;
 }
 
 a{
@@ -42,5 +44,31 @@ a:hover {
   margin: 0 auto;
   width: 50%;
   height: 120px;
-  border: black 1px solid;
+}
+
+#area{
+  text-align: right;
+  font-family: 'Muli', sans-serif;
+}
+
+#capacity{
+  text-align: right;
+  font-family: 'Muli', sans-serif;
+}
+
+#img{
+  text-align: left;
+}
+
+#venue-name{
+  text-align: center;
+  font-size:18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-family: 'Bitter', serif;
+}
+
+#event-link{
+  text-align: right;
 }

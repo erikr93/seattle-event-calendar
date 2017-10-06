@@ -3,117 +3,142 @@
   "capacity": "1100",
   "district": "Pike Place",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "5621"
   },
 {
   "name": "Showbox SODO",
   "capacity": "1500",
   "district": "Sodo",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "3154"
   },
 {
   "name": "Club Contour",
   "capacity": "215",
   "district": "Pioneer Square",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "468521"
   },
 {
   "name": "Kremwerk / Timbre Room",
   "capacity": "350",
   "district": "First Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "2581003"
   },
 {
   "name": "Q Nightclub",
   "capacity": "700",
   "district": "Capital Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "1998904"
   },
 {
   "name": "Moore Theater",
   "capacity": "1800",
   "district": "Belltown",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "1109"
   },
 {
   "name": "Paramount Theater",
   "capacity": "2800",
   "district": "Westlake",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "529"
   },
 {
   "name": "Neumos",
   "capacity": "500",
   "district": "Capital Hill",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "1163"
   },
 {
   "name": "Neptune Theater",
-  "capacity": "800",
+  "capacity": "2800",
   "district": "University District",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "1276526"
   },
 {
   "name": "Wamu Theater",
-  "capacity": "8000-23000",
+  "capacity": "6700",
   "district": "Sodo",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "578496"
   },
 {
   "name": "Tacoma Dome",
   "capacity": "23000",
   "district": "Tacoma",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "596"
   },
 {
   "name": "Key Arena",
   "capacity": "17500",
   "district": "Lower Queen Anne",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "33714"
   },
 {
   "name": "The Crocodile",
-  "capacity": "600",
+  "capacity": "560",
   "district": "Belltown",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "291"
   },
 {
-  "name": "Rebar",
+  "name": "Re-bar",
   "capacity": "250",
   "district": "First Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "53634"
   },
 {
   "name": "Nectar Lounge",
-  "capacity": "400",
+  "capacity": "450",
   "district": "Ballard",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "11589"
   },
 {
   "name": "Chop Suey",
   "capacity": "200",
   "district": "Capital Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "208"
   },
 {
   "name": "The Underground",
   "capacity": "250",
   "district": "Pioneer Square",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300"
+  "img": "http://placekitten.com/200/300",
+  "id": "72182"
+  },
+{
+  "name": "The Highline",
+  "capacity": "250",
+  "district": "Capital Hill",
+  "restrictions": "21+",
+  "img": "http://placekitten.com/200/300",
+  "id": "1163446"
   }]

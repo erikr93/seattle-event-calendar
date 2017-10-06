@@ -1,27 +1,13 @@
 <div id="events">
 
       <div> <% venueData.forEach(function(item){ %>
-        <h2><%= item.name %></h2>
-        <p>Capacity: <%= item.capacity %></p>
-        <p>Area: <%= item.district %></p>
+        <h2 id='venue-name'><%= item.name %></h2>
+        <p id='capacity'>Capacity: <%= item.capacity %></p>
+        <p id='area'>Area: <%= item.district %></p>
         <div id='img'> <%= item.img %> </div>
+        <a id='event-link' href='/events'>Events</a>
   <% }) %>
 
   <p></p>
 </div>
-</div>
-<div id="events">
-  <h2></h2>
-  <p></p>
-  <p></p>
-</div>
-<div id="events">
-  <h2></h2>
-  <p></p>
-  <p></p>
-</div>
-<div id="events">
-  <h2></h2>
-  <p></p>
-  <p></p>
 </div>
