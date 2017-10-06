@@ -3,7 +3,6 @@
   "capacity": "1100",
   "district": "Pike Place",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "5621"
   },
 {
@@ -11,7 +10,6 @@
   "capacity": "1500",
   "district": "Sodo",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "3154"
   },
 {
@@ -19,7 +17,6 @@
   "capacity": "215",
   "district": "Pioneer Square",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "468521"
   },
 {
@@ -27,7 +24,6 @@
   "capacity": "350",
   "district": "First Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "2581003"
   },
 {
@@ -35,7 +31,6 @@
   "capacity": "700",
   "district": "Capital Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "1998904"
   },
 {
@@ -43,7 +38,6 @@
   "capacity": "1800",
   "district": "Belltown",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "1109"
   },
 {
@@ -51,7 +45,6 @@
   "capacity": "2800",
   "district": "Westlake",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "529"
   },
 {
@@ -59,7 +52,6 @@
   "capacity": "500",
   "district": "Capital Hill",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "1163"
   },
 {
@@ -67,7 +59,6 @@
   "capacity": "2800",
   "district": "University District",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "1276526"
   },
 {
@@ -75,7 +66,6 @@
   "capacity": "6700",
   "district": "Sodo",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "578496"
   },
 {
@@ -83,7 +73,6 @@
   "capacity": "23000",
   "district": "Tacoma",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "596"
   },
 {
@@ -91,7 +80,6 @@
   "capacity": "17500",
   "district": "Lower Queen Anne",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "33714"
   },
 {
@@ -99,7 +87,6 @@
   "capacity": "560",
   "district": "Belltown",
   "restrictions": "21+ bar",
-  "img": "http://placekitten.com/200/300",
   "id": "291"
   },
 {
@@ -107,7 +94,6 @@
   "capacity": "250",
   "district": "First Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "53634"
   },
 {
@@ -115,7 +101,6 @@
   "capacity": "450",
   "district": "Ballard",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "11589"
   },
 {
@@ -123,7 +108,6 @@
   "capacity": "200",
   "district": "Capital Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "208"
   },
 {
@@ -131,7 +115,6 @@
   "capacity": "250",
   "district": "Pioneer Square",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "72182"
   },
 {
@@ -139,6 +122,5 @@
   "capacity": "250",
   "district": "Capital Hill",
   "restrictions": "21+",
-  "img": "http://placekitten.com/200/300",
   "id": "1163446"
   }]

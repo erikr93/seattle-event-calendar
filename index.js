@@ -54,12 +54,17 @@ app.get('/', function(req, res) {
 });
 
 app.get('/events', function(req,res){
-  var events = 'http://api.songkick.com/api/3.0/venues/venueData.id/calendar.json?apikey=DA_KEY'
+  var events = 'http://api.songkick.com/api/3.0/venues/' + venueData.id + '/calendar.json?apikey=' + DA_KEY;
 
   request(events, function(error, response, body){
-    
-  })
-})
+    var eventsParsed = JSON.parse(body);
+    var name = resultsPage.results.event.displayName;
+    var date = resultsPage.results.start.date;
+    var time = resultsPage.results.start.time;
+    var restrictions = resultsPage.results.event.ageRestrictions;
+  });
+  res.render('events');
+});
 
 //favorites
 app.get('/profile', isLoggedIn, function(req, res) {
