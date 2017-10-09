@@ -5,6 +5,7 @@ var bodyParser = require('body-parser');
 var db = require('./models');
 var app = express();
 
+var dotenv = require('dotenv');
 var path = require('path');
 var session = require('express-session');
 var flash = require('connect-flash');
@@ -50,6 +51,8 @@ app.use(passport.session());
 
 app.locals.venueData = require('./data.json');
 
+
+
 app.get('/', function(req, res) {
   res.render('index');
 });
@@ -57,7 +60,7 @@ app.get('/', function(req, res) {
 app.get('/events', function(req,res){
   var events = 'http://api.songkick.com/api/3.0/venues/' + venueData.id + '/calendar.json?apikey=' + DA_KEY;
 
-  request(events, function(error, response, body){
+  require('http').request(events, function(error, response, body){
     var eventsParsed = JSON.parse(body);
     var name = resultsPage.results.event.displayName;
     var date = resultsPage.results.start.date;
