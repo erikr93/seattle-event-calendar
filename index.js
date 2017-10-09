@@ -2,6 +2,7 @@ require('dotenv').config();
 var express = require('express');
 var ejsLayouts = require('express-ejs-layouts');
 var bodyParser = require('body-parser');
+var db = require('./models');
 var app = express();
 
 var path = require('path');
@@ -71,9 +72,14 @@ app.get('/profile', isLoggedIn, function(req, res) {
   res.render('profile');
 });
 
-app.post('/favorites', function(req,res){
-  
+app.post('/', function(req,res){
+  db.favorites.create(req.body).then(function(favorites){
+    res.redirect('/profile');
+  }).catch(function(err){
+    res.status(500).render('error');
+  });
 });
+
 
 app.use('/auth', require('./controllers/auth'));
 
