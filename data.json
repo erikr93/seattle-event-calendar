@@ -4,7 +4,7 @@
   "district": "Pike Place",
   "restrictions": "21+ bar",
   "id": "5621",
-  "img": "./views/img/showbox-market.jpg"
+  "img": "img/showbox-market.jpg"
   },
 {
   "name": "Showbox SODO",
@@ -12,7 +12,7 @@
   "district": "Sodo",
   "restrictions": "21+ bar",
   "id": "3154",
-  "img": "views/img/showbox-sodo.jpg"
+  "img": "img/showbox-sodo.jpg"
   },
 {
   "name": "Club Contour",
@@ -20,7 +20,7 @@
   "district": "Pioneer Square",
   "restrictions": "21+",
   "id": "468521",
-  "img": "views/img/contour.jpg"
+  "img": "img/contour.jpg"
   },
 {
   "name": "Kremwerk / Timbre Room",
@@ -28,7 +28,7 @@
   "district": "First Hill",
   "restrictions": "21+",
   "id": "2581003",
-  "img": "views/img/kremwerk.jpg"
+  "img": "img/kremwerk.jpg"
   },
 {
   "name": "Q Nightclub",
@@ -36,7 +36,7 @@
   "district": "Capital Hill",
   "restrictions": "21+",
   "id": "1998904",
-  "img": "views/img/q.jpg"
+  "img": "img/q.jpg"
   },
 {
   "name": "Moore Theater",
@@ -44,7 +44,7 @@
   "district": "Belltown",
   "restrictions": "21+ bar",
   "id": "1109",
-  "img": "views/img/moore.jpg"
+  "img": "img/moore.jpg"
   },
 {
   "name": "Paramount Theater",
@@ -52,7 +52,7 @@
   "district": "Westlake",
   "restrictions": "21+ bar",
   "id": "529",
-  "img": "views/img/paramount.jpg"
+  "img": "img/paramount.jpg"
   },
 {
   "name": "Neumos",
@@ -60,7 +60,7 @@
   "district": "Capital Hill",
   "restrictions": "21+ bar",
   "id": "1163",
-  "img": "views/img/Neumos.png"
+  "img": "img/Neumos.png"
   },
 {
   "name": "Neptune Theater",
@@ -68,7 +68,7 @@
   "district": "University District",
   "restrictions": "21+ bar",
   "id": "1276526",
-  "img": "views/img/neptune.jpg"
+  "img": "img/neptune.jpg"
   },
 {
   "name": "Wamu Theater",
@@ -76,7 +76,7 @@
   "district": "Sodo",
   "restrictions": "21+ bar",
   "id": "578496",
-  "img": "views/img/wamu.jpg"
+  "img": "img/wamu.jpg"
   },
 {
   "name": "Tacoma Dome",
@@ -84,7 +84,7 @@
   "district": "Tacoma",
   "restrictions": "21+ bar",
   "id": "596",
-  "img": "views/img/tacoma-dome.jpg"
+  "img": "img/tacome-dome.jpg"
   },
 {
   "name": "Key Arena",
@@ -92,7 +92,7 @@
   "district": "Lower Queen Anne",
   "restrictions": "21+ bar",
   "id": "33714",
-  "img": "views/img/key-arena.jpg"
+  "img": "img/key-arena.jpg"
   },
 {
   "name": "The Crocodile",
@@ -100,7 +100,7 @@
   "district": "Belltown",
   "restrictions": "21+ bar",
   "id": "291",
-  "img": "views/img/crocodile.jpg"
+  "img": "img/crocodile.jpg"
   },
 {
   "name": "Re-bar",
@@ -108,7 +108,7 @@
   "district": "First Hill",
   "restrictions": "21+",
   "id": "53634",
-  "img": "views/img/rebar.png"
+  "img": "img/rebar.png"
   },
 {
   "name": "Nectar Lounge",
@@ -116,7 +116,7 @@
   "district": "Ballard",
   "restrictions": "21+",
   "id": "11589",
-  "img": "views/img/nectar.jpg"
+  "img": "img/nectar.jpg"
   },
 {
   "name": "Chop Suey",
@@ -124,7 +124,7 @@
   "district": "Capital Hill",
   "restrictions": "21+",
   "id": "208",
-  "img": "views/img/chop-suey.jpg"
+  "img": "img/chop-suey.jpg"
   },
 {
   "name": "The Underground",
@@ -132,7 +132,7 @@
   "district": "Pioneer Square",
   "restrictions": "21+",
   "id": "72182",
-  "img": "views/img/underground.jpg"
+  "img": "img/underground.jpg"
   },
 {
   "name": "The Highline",
@@ -140,5 +140,5 @@
   "district": "Capital Hill",
   "restrictions": "21+",
   "id": "1163446",
-  "img": "views/img/highline.jpg"
+  "img": "img/highline.jpg"
   }]
