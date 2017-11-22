@@ -1,16 +1,29 @@
-<div id="events">
+<header class="header" id="top">
+  <div class="text-vertical-center">
+    <h1>Event Finder</h1>
+    <h3>Find and favorite your favorite local venues</h3>
+    <br>
+  </div>
+</header>
 
-      <div id="event-box"> <% venueData.forEach(function(item){ %>
-        <h2 id='venue-name'><%= item.name %></h2>
-        <div id="info-box">
-          <p id='capacity'>Capacity: <%= item.capacity %></p>
-          <p id='area'>Area: <%= item.district %></p>
-        </div>
-        <span> <img src="<%= item.img %>"> </span>
-        <a class="nav-link" id='event-link' href='/events'>Events</a>
-        <a class="nav-link" id='favorite' href='/profile'>Add to favorites</a>
-  <% }) %>
+<div class="well" id="events">
+          <div id="event-box">
 
-  <p></p>
+            <% for(var i = 0; i< venueData.length; i++){ %>
+            <h2 id='venue-name'><%= venueData[i].name %></h2>
+            <div data-id=<%= i %> data-name= id="info-box">
+              <p id='capacity'>Capacity: <%= venueData[i].capacity %></p>
+              <p id='area'>Area: <%= venueData[i].district %></p>
+            </div>
+            <span> <img src="<%= venueData[i].img %>"> </span>
+            <form action="/profile" method="POST">
+          <input hidden type="text" name="id" value="<%= i %>">
+          <input hidden type="text" name="name" value="<%=venueData[i].name%>">
+          <input hidden type="text" name="capacity" value="<%=venueData[i].capacity%>">
+          <input hidden type="text" name="district" value="<%=venueData[i].district%>">
+          <input type="submit" class="nav-link" id='favorite' value='Add to favorites'>
+            </form>
+          <% } %>
+
 </div>
 </div>

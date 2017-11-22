@@ -1,6 +1,6 @@
 [{
   "name": "Showbox at the Market",
-  "capacity": "1100",
+  "capacity": 1100,
   "district": "Pike Place",
   "restrictions": "21+ bar",
   "id": "5621",
@@ -8,7 +8,7 @@
   },
 {
   "name": "Showbox SODO",
-  "capacity": "1500",
+  "capacity": 1500,
   "district": "Sodo",
   "restrictions": "21+ bar",
   "id": "3154",
@@ -16,7 +16,7 @@
   },
 {
   "name": "Club Contour",
-  "capacity": "215",
+  "capacity": 215,
   "district": "Pioneer Square",
   "restrictions": "21+",
   "id": "468521",
@@ -24,7 +24,7 @@
   },
 {
   "name": "Kremwerk / Timbre Room",
-  "capacity": "350",
+  "capacity": 350,
   "district": "First Hill",
   "restrictions": "21+",
   "id": "2581003",
@@ -32,7 +32,7 @@
   },
 {
   "name": "Q Nightclub",
-  "capacity": "700",
+  "capacity": 700,
   "district": "Capital Hill",
   "restrictions": "21+",
   "id": "1998904",
@@ -40,7 +40,7 @@
   },
 {
   "name": "Moore Theater",
-  "capacity": "1800",
+  "capacity": 1800,
   "district": "Belltown",
   "restrictions": "21+ bar",
   "id": "1109",
@@ -48,7 +48,7 @@
   },
 {
   "name": "Paramount Theater",
-  "capacity": "2800",
+  "capacity": 2800,
   "district": "Westlake",
   "restrictions": "21+ bar",
   "id": "529",
@@ -56,7 +56,7 @@
   },
 {
   "name": "Neumos",
-  "capacity": "500",
+  "capacity": 500,
   "district": "Capital Hill",
   "restrictions": "21+ bar",
   "id": "1163",
@@ -64,7 +64,7 @@
   },
 {
   "name": "Neptune Theater",
-  "capacity": "2800",
+  "capacity": 2800,
   "district": "University District",
   "restrictions": "21+ bar",
   "id": "1276526",
@@ -72,7 +72,7 @@
   },
 {
   "name": "Wamu Theater",
-  "capacity": "6700",
+  "capacity": 6700,
   "district": "Sodo",
   "restrictions": "21+ bar",
   "id": "578496",
@@ -80,7 +80,7 @@
   },
 {
   "name": "Tacoma Dome",
-  "capacity": "23000",
+  "capacity": 23000,
   "district": "Tacoma",
   "restrictions": "21+ bar",
   "id": "596",
@@ -88,7 +88,7 @@
   },
 {
   "name": "Key Arena",
-  "capacity": "17500",
+  "capacity": 17500,
   "district": "Lower Queen Anne",
   "restrictions": "21+ bar",
   "id": "33714",
@@ -96,7 +96,7 @@
   },
 {
   "name": "The Crocodile",
-  "capacity": "560",
+  "capacity": 560,
   "district": "Belltown",
   "restrictions": "21+ bar",
   "id": "291",
@@ -104,7 +104,7 @@
   },
 {
   "name": "Re-bar",
-  "capacity": "250",
+  "capacity": 250,
   "district": "First Hill",
   "restrictions": "21+",
   "id": "53634",
@@ -112,15 +112,15 @@
   },
 {
   "name": "Nectar Lounge",
-  "capacity": "450",
-  "district": "Ballard",
+  "capacity": 450,
+  "district": "Fremont",
   "restrictions": "21+",
   "id": "11589",
   "img": "img/nectar.jpg"
   },
 {
   "name": "Chop Suey",
-  "capacity": "200",
+  "capacity": 200,
   "district": "Capital Hill",
   "restrictions": "21+",
   "id": "208",
@@ -128,7 +128,7 @@
   },
 {
   "name": "The Underground",
-  "capacity": "250",
+  "capacity": 250,
   "district": "Pioneer Square",
   "restrictions": "21+",
   "id": "72182",
@@ -136,7 +136,7 @@
   },
 {
   "name": "The Highline",
-  "capacity": "250",
+  "capacity": 250,
   "district": "Capital Hill",
   "restrictions": "21+",
   "id": "1163446",
