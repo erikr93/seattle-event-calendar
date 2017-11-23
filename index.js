@@ -70,10 +70,6 @@ app.get('/events', function(req,res){
   res.render('events');
 });
 
-//favorites
-// app.get('/profile', isLoggedIn, function(req, res) {
-//   res.render('profile');
-// });
 
 app.post('/', function(req,res){
   db.favorites.create(req.body).then(function(favorites){
@@ -83,27 +79,6 @@ app.post('/', function(req,res){
   });
 });
 
-// app.get('/', function(req, res){
-//   db.user.findOne()
-// })
-
-// app.post('/profile', isLoggedIn, function(req, res) {
-// 	db.user.find({
-// 		where: {id: req.user.id}
-// 	}).then(function(user) {
-// 		db.venue.findOrCreate({
-// 			where: {
-// 				name: req.body.name
-// 			}
-// 		}).spread(function(venue, created) {
-// 			user.addVenue(venue).then(function(venue) {
-// 				res.redirect('/profile');
-// 			})
-// 		})
-// 	}).catch(function(error) {
-//     	res.status(400).render('404');
-//   	});
-// })
 
 app.use('/profile', require('./controllers/profile'))
 app.use('/auth', require('./controllers/auth'));

@@ -1,9 +1,10 @@
 <h2>Favorited</h2>
-
+    <% for(var i = 0; i< venues.length; i++) { %>
 <div class="well">
-<h1><%= venues.name %></h1>
-<p><%= venues.capacity %></p>
-<p><%= venues.area %></p>
-<a href="/">Home</a>
-
+    <h1><%= venues[i].name %></h1>
+    <p><%= venues[i].capacity %></p>
+    <p><%= venues[i].area %></p>
+    <a href="/<%= venues.id %>" class="delete">Delete</a>
+    <a href="/">Home</a>
 </div>
+<% } %>
