@@ -18,7 +18,7 @@ app.use(require('morgan')('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(ejsLayouts);
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.cookieParser(SESSION_SECRET));
+app.use(cookieParser(SESSION_SECRET));
 /*
  * setup the session with the following:
  *
