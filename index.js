@@ -2,6 +2,7 @@ require('dotenv').config();
 var express = require('express');
 var ejsLayouts = require('express-ejs-layouts');
 var bodyParser = require('body-parser');
+var cookieParse = require('cookie-parser');
 var db = require('./models');
 var app = express();
 
